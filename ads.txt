@@ -1,0 +1,6 @@
+# ads.txt — MODELO. Enquanto as linhas abaixo estiverem com "#" na frente, este arquivo não declara nada (anúncios desligados).
+# Quando a conta AdSense for aprovada:
+#   1. troque pub-0000000000000000 pelo SEU ID de editor (AdSense > Conta > Informações da conta);
+#   2. apague o "#" do começo da linha;
+#   3. publique. O arquivo precisa abrir em https://SEU-DOMINIO/ads.txt (na raiz do site).
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0

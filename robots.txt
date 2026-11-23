@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://frannciomar.github.io/sitemap.xml
