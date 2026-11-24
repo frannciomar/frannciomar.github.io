@@ -5,7 +5,7 @@ window.GAMES = [
   {
     id: 'everest-motor-bike',
     status: 'beta',
-    name: 'Everest Motor Bike',
+    name: 'Everest Motorbike',
     url: (window.SITE || {}).GAME_URL,
     // lojas onde a versão final vai sair (só rótulos "em breve", sem link, até existirem as páginas das lojas)
     platforms: [
@@ -16,12 +16,12 @@ window.GAMES = [
     ],
     shots: ['assets/img/shot-1.webp', 'assets/img/shot-2.webp', 'assets/img/shot-3.webp'],
     desc: {
-      pt: 'Do cume do Everest a um vulcão em erupção: 25,9 km de descida com avalanche, queda de 650 m pelas nuvens, onda gigante, selva e surfe na lava com a roda pegando fogo. Manobras, nitro e muita lapada seca.',
+      pt: 'Do pico do Everest a um vulcão em erupção: 25,9 km de descida com avalanche, queda de 650 m pelas nuvens, onda gigante, selva e surfe na lava com a roda pegando fogo. Manobras, nitro e muita lapada seca.',
       en: 'From the summit of Everest to an erupting volcano: a 25.9 km descent with an avalanche, a 650 m drop through the clouds, a giant wave, jungle and lava surfing with the rear wheel on fire. Tricks, nitro and hard crashes.',
       es: 'De la cima del Everest a un volcán en erupción: 25,9 km de descenso con avalancha, caída de 650 m entre las nubes, ola gigante, selva y surf en la lava con la rueda en llamas. Trucos, nitro y buenos porrazos.'
     },
-    touch: { pt: 'dedo na tela acelera · arraste para pilotar · toque duplo = nitro', en: 'hold to accelerate · drag to steer · double tap = nitro', es: 'mantén el dedo para acelerar · arrastra para pilotar · doble toque = nitro' },
-    keys: { pt: 'W/↑ acelera · A/D pilota · Shift nitro · Espaço pula · I/K/J/L manobras', en: 'W/↑ accelerate · A/D steer · Shift nitro · Space jump · I/K/J/L tricks', es: 'W/↑ acelera · A/D pilota · Shift nitro · Espacio salta · I/K/J/L trucos' }
+    touch: { pt: 'dedo na tela acelera · arraste para pilotar · toque duplo = nitro (acelera sozinho) · deslize ↓ = empinar (com nitro)', en: 'hold to accelerate · drag to steer · double tap = nitro (speeds up by itself) · swipe ↓ = wheelie (with nitro)', es: 'mantén el dedo para acelerar · arrastra para pilotar · doble toque = nitro (acelera solo) · desliza ↓ = caballito (con nitro)' },
+    keys: { pt: 'W/↑ acelera · A/D pilota · Shift nitro · S/↓ empinar (nitro) · I/K/J/L manobras', en: 'W/↑ accelerate · A/D steer · Shift nitro · S/↓ wheelie (nitro) · I/K/J/L tricks', es: 'W/↑ acelera · A/D pilota · Shift nitro · S/↓ caballito (nitro) · I/K/J/L trucos' }
   },
   { id: 'novo-1', status: 'soon', name: { pt: 'Próximo jogo', en: 'Next game', es: 'Próximo juego' }, desc: { pt: 'Já está na bancada. Siga no Instagram para ver os primeiros testes.', en: 'Already on the workbench. Follow on Instagram to see the first tests.', es: 'Ya está en el taller. Sígueme en Instagram para ver las primeras pruebas.' } },
   { id: 'novo-2', status: 'soon', name: { pt: 'Em segredo', en: 'Top secret', es: 'En secreto' }, desc: { pt: 'Uma ideia maluca de cada vez.', en: 'One crazy idea at a time.', es: 'Una idea loca a la vez.' } }

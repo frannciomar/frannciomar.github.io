@@ -1,6 +1,8 @@
 // CONFIGURAÇÃO DO SITE — único lugar para trocar links.
 window.SITE = {
-  GAME_URL: 'https://frannciomar.github.io/everest-motor-bike/', // para onde vão o banner e o botão JOGAR AGORA
+  // URL do jogo (repositório everest-motorbike, renomeado na build 5.0; o endereço antigo, sem o hífen do meio, NÃO redireciona).
+  // Para desfazer: `node tools/trocar-url.mjs --voltar --aplicar` (ver PUBLICAR-5.0.md).
+  GAME_URL: 'https://frannciomar.github.io/everest-motorbike/', // para onde vão o banner e o botão JOGAR AGORA
   INSTAGRAM: 'https://instagram.com/frannciomar',
   HANDLE: '@frannciomar',
   LANGS: ['pt', 'en', 'es'],
