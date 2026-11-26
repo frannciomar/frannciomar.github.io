@@ -1,0 +1,20 @@
+/* JCL — por cima de ../assets/site.css: paleta fria da névoa e vermelho do corte */
+body.jcl{--or:#c3262c;--or2:#e0484d;--cy:#c9d6cf;--ink:#000;--ink2:#0c100f;--ink3:#141a18;--line:#2a3431;--mut:#9fada7}
+.jcl .badge,.jcl .pill{color:#fff}
+.jcl .pill.soon{color:var(--cy)}
+.jcl .media.teaser{aspect-ratio:9/16;width:min(100%,calc(62svh * .5625),420px)}
+.jcl .media.teaser video{opacity:1}
+.jcl button.tap{cursor:pointer;min-height:44px}
+.jcl h1 .logo{width:min(100%,520px);height:auto;margin:0 auto}
+.jcl .tag{font:900 italic clamp(30px,8vw,54px)/1.05 var(--f);text-transform:uppercase;text-align:center;margin:4px 0}
+.jcl .copy .sub{margin-inline:auto;text-align:center}
+.jcl .facts{justify-content:center}
+.jcl .news{margin-top:18px}
+.jcl .btn.play{background:linear-gradient(180deg,#d63238,#9c141a);border-color:#ff8a8e;color:#fff;box-shadow:0 10px 30px rgba(195,38,44,.35);max-width:460px}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.gallery img{width:100%;height:auto;border-radius:12px;border:1.5px solid var(--line)}
+@media (min-width:700px){.gallery{grid-template-columns:repeat(4,1fr)}.jcl .cta{grid-template-columns:repeat(2,minmax(0,300px))}}
+@media (min-width:900px){.jcl .hero .media.teaser{width:min(100%,calc(80svh * .5625),420px)}}
+/* o logo funde no fundo preto; no celular o nome vem antes do vídeo */
+.jcl h1 .logo{mix-blend-mode:lighten;filter:contrast(1.06) brightness(.97)}
+@media (max-width:899px){.jcl .hero .copy{order:-1}.jcl h1 .logo{width:min(82%,360px)}.jcl .hero .copy .facts{margin:6px 0 4px}}

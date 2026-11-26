@@ -1,5 +1,6 @@
 // LISTA DE JOGOS — para adicionar um jogo novo, copie um bloco e troque os dados.
-// status: 'beta' (jogável, mostra botão Jogar) | 'soon' (cartão "Em breve").
+// status: 'beta' (jogável, mostra botão Jogar) | 'alpha' (em fase inicial) | 'soon' (cartão "Em breve").
+// Opcionais: build (número), cta (texto do botão, no lugar de "Jogar"), shotAlt (descrição das imagens).
 // Textos: { pt, en, es }. shots: até 3 imagens (retrato). url: link do jogo. platforms: lojas futuras (aparecem em "Sobre").
 window.GAMES = [
   {
@@ -23,6 +24,20 @@ window.GAMES = [
     touch: { pt: 'dedo na tela acelera · arraste para pilotar · toque duplo = nitro (acelera sozinho) · deslize ↓ = empinar (com nitro)', en: 'hold to accelerate · drag to steer · double tap = nitro (speeds up by itself) · swipe ↓ = wheelie (with nitro)', es: 'mantén el dedo para acelerar · arrastra para pilotar · doble toque = nitro (acelera solo) · desliza ↓ = caballito (con nitro)' },
     keys: { pt: 'W/↑ acelera · A/D pilota · Shift nitro · W/↑ em sequência = empinar (só com nitro) · I/K/J/L manobras', en: 'W/↑ accelerate · A/D steer · Shift nitro · tap W/↑ repeatedly = wheelie (nitro only) · I/K/J/L tricks', es: 'W/↑ acelera · A/D pilota · Shift nitro · pulsa W/↑ = caballito (solo con nitro) · I/K/J/L trucos' }
   },
-  { id: 'novo-1', status: 'soon', name: { pt: 'Próximo jogo', en: 'Next game', es: 'Próximo juego' }, desc: { pt: 'Já está na bancada. Siga no Instagram para ver os primeiros testes.', en: 'Already on the workbench. Follow on Instagram to see the first tests.', es: 'Ya está en el taller. Sígueme en Instagram para ver las primeras pruebas.' } },
+  {
+    id: 'jcl',
+    status: 'alpha',
+    build: '0.2',
+    name: 'JCL',
+    url: 'jcl/',
+    cta: { pt: 'Conhecer o jogo', en: 'Discover the game', es: 'Conocer el juego' },
+    shots: ['jcl/img/shot-1.jpg', 'jcl/img/shot-2.jpg', 'jcl/img/shot-3.jpg'],
+    shotAlt: { pt: 'Arte conceitual', en: 'Concept art', es: 'Arte conceptual' },
+    desc: {
+      pt: 'Eles observam. Eles esperam. Sobrevivência furtiva numa ilha onde os predadores pensam, em visual retrô. Nome provisório, demo em preparação. Imagens: arte conceitual.',
+      en: 'They watch. They wait. Stealth survival on an island where the predators think, with a retro look. Working title, demo in the works. Images: concept art.',
+      es: 'Observan. Esperan. Supervivencia sigilosa en una isla donde los depredadores piensan, con estilo retro. Nombre provisional, demo en preparación. Imágenes: arte conceptual.'
+    }
+  },
   { id: 'novo-2', status: 'soon', name: { pt: 'Em segredo', en: 'Top secret', es: 'En secreto' }, desc: { pt: 'Uma ideia maluca de cada vez.', en: 'One crazy idea at a time.', es: 'Una idea loca a la vez.' } }
 ];
