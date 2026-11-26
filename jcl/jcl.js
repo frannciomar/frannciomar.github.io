@@ -1,7 +1,7 @@
 // JCL — página do jogo: idiomas, vídeo e botão da demo.
 (function () {
   'use strict';
-  var DEMO_URL = ''; // quando a demo estiver publicada, coloque o endereço aqui (ex.: 'demo/')
+  var DEMO_URL = 'demo/'; // quando a demo estiver publicada, coloque o endereço aqui (ex.: 'demo/')
   var D = document, $ = function (id) { return D.getElementById(id); }, q = new URLSearchParams(location.search);
   var T = {
     pt: { title: 'JCL — survival horror stealth em desenvolvimento (alfa) | By Franciomar Silva', badge: 'ALFA', tag: 'Eles observam. Eles esperam.', sub: 'Sobrevivência furtiva numa ilha onde os predadores pensam. Um soldado, uma pistola e quase nenhuma munição.',
