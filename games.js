@@ -17,12 +17,12 @@ window.GAMES = [
     ],
     shots: ['assets/img/shot-1.webp', 'assets/img/shot-2.webp', 'assets/img/shot-3.webp'],
     desc: {
-      pt: 'Do pico do Everest a um vulcão em erupção: 25,9 km de descida com avalanche, queda de 650 m pelas nuvens, onda gigante, selva e surfe na lava. Manobras, nitro e muita lapada seca.',
-      en: 'From the summit of Everest to an erupting volcano: a 25.9 km descent with an avalanche, a 650 m drop through the clouds, a giant wave, jungle and lava surfing. Tricks, nitro and hard crashes.',
-      es: 'De la cima del Everest a un volcán en erupción: 25,9 km de descenso con avalancha, caída de 650 m entre las nubes, ola gigante, selva y surf en la lava. Trucos, nitro y buenos porrazos.'
+      pt: 'Do pico do Everest a um vulcão em erupção: 25,9 km de descida com avalanche, queda de 650 m pelas nuvens, onda gigante, selva e surfe na lava. Moto de rally, manobras radicais, ações no ar, nitro e muita lapada seca.',
+      en: 'From the peak of Everest to an erupting volcano: a 25.9 km descent with an avalanche, a 650 m drop through the clouds, a giant wave, jungle and lava surfing. A rally-style bike, big tricks, mid-air actions, nitro and hard crashes.',
+      es: 'Del pico del Everest a un volcán en erupción: 25,9 km de descenso con avalancha, caída de 650 m entre las nubes, ola gigante, selva y surf en la lava. Moto estilo rally, trucos radicales, acciones en el aire, nitro y buenos porrazos.'
     },
-    touch: { pt: 'dedo na tela acelera · arraste para pilotar · toque duplo = nitro (acelera sozinho) · deslize ↓ = empinar (com nitro)', en: 'hold to accelerate · drag to steer · double tap = nitro (speeds up by itself) · swipe ↓ = wheelie (with nitro)', es: 'mantén el dedo para acelerar · arrastra para pilotar · doble toque = nitro (acelera solo) · desliza ↓ = caballito (con nitro)' },
-    keys: { pt: 'W/↑ acelera · A/D pilota · Shift nitro · W/↑ em sequência = empinar (só com nitro) · I/K/J/L manobras', en: 'W/↑ accelerate · A/D steer · Shift nitro · tap W/↑ repeatedly = wheelie (nitro only) · I/K/J/L tricks', es: 'W/↑ acelera · A/D pilota · Shift nitro · pulsa W/↑ = caballito (solo con nitro) · I/K/J/L trucos' }
+    touch: { pt: 'dedo na tela acelera · arraste para pilotar · toque duplo = nitro · no ar: deslize = manobra, 2 toques e segure = menu de ações · com nitro: puxe ↓ = empinar, empurre ↑ = surfar', en: 'hold to accelerate · drag to steer · double tap = nitro · in the air: swipe = trick, double tap and hold = action menu · with nitro: pull ↓ = wheelie, push ↑ = surf', es: 'mantén el dedo para acelerar · arrastra para conducir · doble toque = nitro · en el aire: desliza = truco, dos toques y mantén = menú de acciones · con nitro: baja ↓ = caballito, sube ↑ = surf' },
+    keys: { pt: 'W/↑ acelera · A/D pilota · Shift/N nitro · com nitro: W/↑ em sequência = empinar, S/↓ segurado = surfar · I/K/J/L: toque = manobra, segure = menu de ações', en: 'W/↑ accelerate · A/D steer · Shift/N nitro · with nitro: tap W/↑ repeatedly = wheelie, hold S/↓ = surf · I/K/J/L: tap = trick, hold = action menu', es: 'W/↑ acelera · A/D conduce · Shift/N nitro · con nitro: pulsa W/↑ varias veces = caballito, mantén S/↓ = surf · I/K/J/L: toque = truco, mantén = menú de acciones' }
   },
   {
     id: 'jcl',
