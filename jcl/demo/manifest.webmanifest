@@ -1,0 +1,19 @@
+{
+  "id": "/jcl/demo/",
+  "name": "O Observador",
+  "short_name": "Observador",
+  "description": "Survival horror stealth em fase alfa. By Franciomar Silva.",
+  "lang": "pt-BR",
+  "start_url": "/jcl/demo/",
+  "scope": "/jcl/demo/",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "background_color": "#000000",
+  "theme_color": "#070909",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    { "src": "../img/icone/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "../img/icone/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "../img/icone/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
